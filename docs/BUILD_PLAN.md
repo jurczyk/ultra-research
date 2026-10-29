@@ -1,13 +1,13 @@
 # Build Plan (about 4 weeks)
 
 ## Week 1: Data pipeline
-- [ ] `npx create-next-app` (TS, Tailwind, App Router)
+- [x] `npx create-next-app` (TS, Tailwind, App Router)
 - [ ] Apply `supabase/schema.sql`
-- [ ] OpenAlex ingest module (keywords, date filter, pagination)
+- [x] OpenAlex ingest module (keywords, date filter, pagination); live API run still unverified
 - [ ] PubMed ingest module
 - [ ] Europe PMC preprint ingest module
-- [ ] DOI dedupe + upsert
-- [ ] `/api/cron/ingest` + Vercel cron config
+- [x] DOI dedupe + upsert
+- [x] `/api/cron/ingest` + Vercel cron config
 
 ## Week 2: Enrichment + review
 - [ ] Claude enrichment with JSON schema validation (zod)
